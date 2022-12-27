@@ -95,7 +95,7 @@ def esportaHash(passwHashDict, dictSelezione):
     Esporta un file con le password ed un file con gli hash
     :param passwHashDict:
     :param dictSelezione:
-    :return:
+    :return:  
     """
     with open(f"{dictSelezione['outputString']}", "w") as fileOut:
         for hashPw in passwHashDict.keys():
